@@ -42,7 +42,7 @@ Each item on the Bottom Navigation corresponds to one of the arrays nested in th
 | backgroundColor | undefined | String | If not set, the bar's background color will be set to the color of whatever the default selected item is |
 | color | "rgba(255, 255, 255, .70)" | String | Sets the inactive color for icons |
 | activeColor | "rgba(255, 255, 255, 1)" | String | Sets the active color for icons |
-| withSystemNav | false | Boolean | Creates the system navigation |
+| withSystemNav | false | Boolean | Creates a system navigation bar |
 | materialIcons | true | Boolean | Set to false when using custom icons |
 
 An example of a more heavily customised component may look like this:
