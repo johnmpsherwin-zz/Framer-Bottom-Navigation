@@ -69,7 +69,7 @@ If needed custom icons can be used by replacing the Material Icon's name with so
 photos = "M6 0h10a6 6 0 0 1 6 6v10a6 6 0 0 1-6 6H6a6 6 0 0 1-6-6V6a6 6 0 0 1 6-6zm0 2a4 4 0 0 0-4 4v10a4 4 0 0 0 4 4h10a4 4 0 0 0 4-4V6a4 4 0 0 0-4-4H6zm9.99 8.223a5 5 0 1 1-9.893 1.467 5 5 0 0 1 9.892-1.467zM11.482 7.99a3 3 0 1 0-.88 5.935 3 3 0 0 0 .88-5.935z"
 ```
 
-To use the photos icon, you just need to set the 'materialIcons' option to false:
+To use the custom icon, you just need to change the 'materialIcons' option to 'false':
 
 ```javascript
 materialIcons: false
