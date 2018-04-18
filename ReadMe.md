@@ -17,13 +17,13 @@ bottomNavigation = new BottomNavigation
 This will create a Bottom Navigation component in it's default state with 4 items using icons that are pulled in from <a href="https://material.io/icons/">Google's Material Icons</a>.
 
 ## Customising
-The items are created using an array with multiple nested arrays. Each nested array should contain 3 elements, the label name, the icon name, and the color. The color is the color bar background will be set as when the item is selected.
-
-Here's an example of what this should look like.
+The items are created using an array with multiple nested arrays. Each nested array should contain 3 elements, the label name, the icon name, and the color. Here's an example of what this should look like.
 
 ```javascript
 itemData = [["Movies", "movie", "#0F6FFF"], ["Books", "book", "#EE4444"], ["Music", "album", "#7143E5"], ["Favorites", "star", "#FF5722"]]
 ```
+
+The first string is the label name for the item, the second is the name of the icon you would like to use, and the third is the items color. The color of each item is what sets the background color of the Bottom Navigation when that item is active.
 
 Next, we can create our Bottom Navigation with custom items:
 
@@ -58,12 +58,12 @@ bottomNavigation = new BottomNavigation
 	materialIcons: true
 ```
 
-# Using Material Icons
+### Using Material Icons
 By default, the component uses Google's Material Icon set. This is as simple as setting the second string in each array to the name of the icon you would like to use.
 A full list of all icons can be found at <a href="https://material.io/icons/">Google's Material Icons</a>. Make sure you use the exact name as it's spelled or the icon won't be imported.
 
-# Using Custom Icons
-If needed custom icons can be used by replacing the Material Icon's name with some SVG path data. To keep your prototype tidy, I recommend storing the path data for each icon in it's own variable. Heres a simple example:
+### Using Custom Icons
+If needed custom icons can be used by replacing the Material Icon's name with some SVG path data. To keep your prototype tidy, store the path data for each icon in it's own variable. Heres a simple example:
 
 ```javascript
 photos = "M6 0h10a6 6 0 0 1 6 6v10a6 6 0 0 1-6 6H6a6 6 0 0 1-6-6V6a6 6 0 0 1 6-6zm0 2a4 4 0 0 0-4 4v10a4 4 0 0 0 4 4h10a4 4 0 0 0 4-4V6a4 4 0 0 0-4-4H6zm9.99 8.223a5 5 0 1 1-9.893 1.467 5 5 0 0 1 9.892-1.467zM11.482 7.99a3 3 0 1 0-.88 5.935 3 3 0 0 0 .88-5.935z"
@@ -81,7 +81,10 @@ Then replace the names of the Material Icon's with variable name of your custom 
 itemData = [["Photos", photos, "#0F6FFF"],["Cloud", cloud, "#0ECFB8"], ["Explore", compass, "#8920E6"], ["Camera", camera, "#F5A613"]]
 ```
 
-## Contact
-Say Hi, I’m on <a href="https://twitter.com/johnmpsherwin">Twitter 👋</a>.
+## Examples
+<a href="https://framer.cloud/YzeNA">Material Icons</a>
+<a href="https://framer.cloud/WnsJS">Custom Icons</a>
 
-Follow me on <a href="https://dribbble.com/johnsherwin">Dribbble 🏀</a>.
+
+## Contact
+For updates, follow me on <a href="https://twitter.com/johnmpsherwin">Twitter 👋</a>.
