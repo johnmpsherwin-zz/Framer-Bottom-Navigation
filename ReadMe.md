@@ -14,7 +14,7 @@ Next, instantiate the Bottom Navigation with the following code:
 bottomNavigation = new BottomNavigation
 ```
 
-This will create a Bottom Navigation component in it's default state with 4 items using icons that are pulled in from [Google's Material Icons](https://material.io/icons/).
+This will create a Bottom Navigation component in it's default state with 4 items using icons that are pulled in from <a href="https://material.io/icons/">Google's Material Icons</a>.
 
 ## Customising
 The items are created using an array with multiple nested arrays. Each nested array should contain 3 elements, the label name, the icon name, and the color. The color is the color bar background will be set as when the item is selected.
@@ -60,7 +60,7 @@ bottomNavigation = new BottomNavigation
 
 # Using Material Icons
 By default, the component uses Google's Material Icon set. This is as simple as setting the second string in each array to the name of the icon you would like to use.
-A full list of all icons can be found at [](https://material.io/icons/). Make sure you use the exact name as it's spelled or the icon won't be imported.
+A full list of all icons can be found at <a href="https://material.io/icons/">Google's Material Icons</a>. Make sure you use the exact name as it's spelled or the icon won't be imported.
 
 # Using Custom Icons
 If needed custom icons can be used by replacing the Material Icon's name with some SVG path data. To keep your prototype tidy, I recommend storing the path data for each icon in it's own variable. Heres a simple example:
