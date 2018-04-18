@@ -75,7 +75,7 @@ To use the custom icon, you just need to change the 'materialIcons' option to 'f
 materialIcons: false
 ```
 
-Then replace the names of the Material Icon's with variable name of your custom icons:
+Replace the names of the Material Icon's with variable name of your custom icons:
 
 ```javascript
 itemData = [["Photos", photos, "#0F6FFF"],["Cloud", cloud, "#0ECFB8"], ["Explore", compass, "#8920E6"], ["Camera", camera, "#F5A613"]]
