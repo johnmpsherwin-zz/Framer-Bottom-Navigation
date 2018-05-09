@@ -1,3 +1,6 @@
+# Framer Bottom Navigation
+![](github-header.gif)
+
 ## Installation
 To install, place the `BottomNavigation.coffee` file in the `/modules` folder in your Framer project.
 
